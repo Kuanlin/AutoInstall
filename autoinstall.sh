@@ -21,7 +21,7 @@ echo "DOCKER ENV"
 sudo groupadd docker;
 sudo gpasswd -a $USER docker;
 echo "POSTGRESQL CLIENT"
-sudo apt-install postgresql-client;
+sudo apt install -y postgresql-client;
 echo "PYTHON VENV"
 sudo apt install -y python3-venv;
 echo "PYTHON CREATE VENV"

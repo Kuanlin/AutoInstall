@@ -2,7 +2,7 @@ echo "START"
 cd ~;
 echo "UPDATE_1"
 sudo apt-get update;
-sudo apt-mark hold google-cloud-cli
+sudo apt-mark hold google-cloud-cli;
 sudo apt-get upgrade -y;
 echo "INSTALL_1"
 sudo apt-get -y install lsb-release gnupg2 apt-transport-https ca-certificates curl software-properties-common tmux;

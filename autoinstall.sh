@@ -5,7 +5,7 @@ sudo apt-get update;
 sudo apt-mark hold google-cloud-cli;
 sudo apt-get upgrade -y;
 echo "INSTALL_1"
-sudo apt-get -y install lsb-release gnupg2 apt-transport-https ca-certificates curl software-properties-common tmux;
+sudo apt-get -y install lsb-release gnupg2 apt-transport-https ca-certificates curl software-properties-common tmux unzip;
 echo "CURL"
 sudo curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/debian.gpg;
 echo "ADD Repo"
